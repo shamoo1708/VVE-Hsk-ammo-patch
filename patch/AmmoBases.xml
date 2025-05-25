@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+		
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[@Name="CannonAmmoRecipeBase"]/researchPrerequisite</xpath>
+		<value>Mortars</value>
+	</Operation>
+	
+		
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[@Name="AdvancedAmmoRecipeBase"]/researchPrerequisite</xpath>
+				<value>Mortars</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[@Name="LauncherAmmoRecipeBase"]/researchPrerequisite</xpath>
+				<value>Mortars</value>
+	</Operation>
+</Patch>
